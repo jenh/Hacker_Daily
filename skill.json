@@ -1,0 +1,65 @@
+{
+  "manifest": {
+    "apis": {
+      "flashBriefing": {
+        "locales": {
+          "en-US": {
+            "feeds": [
+              {
+                "name": "Hacker Daily",
+                "url": "https://myserver/cve.json",
+                "imageUri": "",
+                "contentType": "TEXT",
+                "genre": "TECHNOLOGY",
+                "updateFrequency": "HOURLY",
+                "vuiPreamble": "In today's software vulnerability news...",
+                "isDefault": true
+              }
+            ],
+            "customErrorMessage": "I'm sorry, I've been pwned! Just kidding! Something's up, though, so try me later."
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://mywebhost/privacy.html"
+        }
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Hacker Daily",
+          "smallIconUri": "",
+          "largeIconUri": "",
+          "summary": "Start your day with a list of the freshest software vulnerabilities!",
+          "description": "Stay up-to-date on the latest software vulnerabilities straight from the Common Vulnerabilities and Exposures (CVE) database. \n\nHacker Daily is updated hourly.",
+          "examplePhrases": [
+            "Alexa, what's my Flash Briefing?",
+            "Alexa, what's in the news?"
+          ],
+          "keywords": [
+            "cve",
+            "hacker",
+            "software",
+            "vulnerabilities",
+            "vulns",
+            "exploits"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Add Hacker Daily to your Daily Briefing, Alexa will read out the last five CVE entries from the Mitre/National Vulnerability Database.",
+      "category": "BUSINESS_AND_FINANCE",
+      "distributionCountries": []
+    }
+  }
+}
